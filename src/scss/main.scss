@@ -25,3 +25,40 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+.sidebar {
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  width: 79px;
+  height: 896px;
+  padding: 10px 17px 35px 17px;
+  flex-direction: column;
+  align-items: center;
+  gap: 99px;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  gap: 58px;
+  align-self: stretch;
+  color: #3a0300;
+  font-family: "Rama Gothic Rounded";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  width: 100%;
+  align-items: center;
+}
