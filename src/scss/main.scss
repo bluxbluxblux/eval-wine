@@ -11,6 +11,7 @@ a {
 img,
 video {
   display: block;
+  max-width: 100%;
 }
 @import "bootstrap/scss/bootstrap-grid";
 
@@ -61,4 +62,93 @@ video {
   transform: rotate(180deg);
   width: 100%;
   align-items: center;
+}
+
+.burger-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.menu {
+  display: flex;
+  width: 128px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.fr {
+  color: #3a0300;
+  text-align: justify;
+  font-family: "Rama Gothic Rounded";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.rectangle {
+  width: 12px;
+  height: 6px;
+}
+
+.user {
+  width: 22px;
+  color: #3a0300;
+  font-family: "Font Awesome 6 Free";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-transform: lowercase;
+}
+
+.cart-shopping {
+  width: 29px;
+  color: #3a0300;
+  font-family: "Font Awesome 6 Free";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-transform: lowercase;
+}
+
+.burger-menu-ligne {
+  width: 42px;
+  height: 24px;
+}
+
+.accueil-vin-rouge {
+  object-position: right top;
+  height: 845px;
+  flex-shrink: 0;
+}
+
+.redwine-background {
+  background-image: url(../img/vinnnnnn-rouge.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 80px 0;
+}
+
+.vin-a-votre-image {
+  color: #3a0300;
+  text-align: center;
+  font-family: "Rama Gothic Rounded";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  width: 846px;
+}
+
+.vin2-rouge {
+  width: 302px;
+  height: 872px;
 }
