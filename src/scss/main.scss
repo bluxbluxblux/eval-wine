@@ -25,7 +25,6 @@ video {
 }
 
 .sidebar {
-  background-color: aquamarine;
   position: fixed;
   top: 0;
   left: 0;
@@ -150,6 +149,29 @@ video {
 .vin2-rouge {
   width: 302px;
   height: 872px;
+}
+
+.redwinebutton {
+  display: flex;
+  width: 194px;
+  height: 47px;
+  padding: 6px 49px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #781515;
+  background: transparent;
+  color: #781515;
+  text-align: center;
+  font-family: "Rama Gothic Rounded";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 30px;
 }
 .texte {
   color: #781515;
@@ -316,3 +338,8 @@ button {
   font-weight: 300;
   line-height: normal;
 }
+
+
+   vin rouge page  
+
+   
