@@ -339,7 +339,74 @@ button {
   line-height: normal;
 }
 
+/* vin rouge page */
 
-   vin rouge page  
+.titre-gamay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  align-self: stretch;
+  color: #802a22;
+  font-family: "Rama Gothic Rounded";
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
 
-   
+a {
+  display: flex;
+  width: 194px;
+  height: 47px;
+  padding: 6px 49px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #781515;
+  color: #781515;
+  text-align: center;
+  font-family: "Rama Gothic Rounded";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+}
+
+.inforedwine {
+  width: 193px;
+  color: #3a0300;
+  font-family: "Rama Gothic Rounded";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.texteredwine {
+  width: 301px;
+  flex-shrink: 0;
+  color: #3a0300;
+  font-family: "Rama Gothic Rounded";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.52px;
+  align-self: stretch;
+}
+
+.redwine-information-texte {
+  display: flex;
+  width: 520px;
+  height: 1266px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 84px;
+  flex-shrink: 0;
+}
