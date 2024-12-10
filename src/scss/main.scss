@@ -47,7 +47,7 @@ video {
   gap: 58px;
   align-self: stretch;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-m";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -136,14 +136,13 @@ video {
 .vin-a-votre-image {
   color: #3a0300;
   text-align: center;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 80px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  width: 846px;
 }
 
 .vin2-rouge {
@@ -164,7 +163,7 @@ video {
   background: transparent;
   color: #781515;
   text-align: center;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
@@ -173,10 +172,15 @@ video {
   text-transform: uppercase;
   margin-top: 30px;
 }
+
+.redwinebutton-wrapper {
+  display: flex;
+  justify-content: end;
+}
 .texte {
   color: #781515;
   text-align: justify;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 40px;
   font-weight: 400;
 }
@@ -194,7 +198,7 @@ button {
   background: transparent;
   color: #781515;
   text-align: center;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
@@ -206,7 +210,7 @@ button {
 
 .titre {
   color: #781515;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 37px;
   font-style: normal;
   font-weight: 900;
@@ -214,11 +218,13 @@ button {
   text-transform: uppercase;
   flex: 1 0 0;
   margin-bottom: -25px;
+  position: relative;
+  align-items: center;
 }
 
 .footer {
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -259,7 +265,7 @@ button {
 .tel-footer {
   flex: 1 0 0;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -280,7 +286,7 @@ button {
 .adresse-footer {
   flex: 1 0 0;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -305,7 +311,7 @@ button {
 .semaine {
   align-self: stretch;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -316,7 +322,7 @@ button {
 .horaire {
   align-self: stretch;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -332,7 +338,7 @@ button {
   gap: 10px;
   border-bottom: 1px solid #000;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -343,13 +349,20 @@ button {
 .mini-footer {
   width: 194px;
   color: #3a0300;
-  // font-family: "Rama Gothic Rounded";
   font-family: "rama-gothic-e";
-
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+.reseau-partenaire {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  justify-content: end;
 }
 
 /* vin rouge page */
@@ -361,7 +374,7 @@ button {
   gap: 18px;
   align-self: stretch;
   color: #802a22;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 43px;
   font-style: normal;
   font-weight: 700;
@@ -381,7 +394,7 @@ a {
   border: 1px solid #781515;
   color: #781515;
   text-align: center;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 29px;
   font-style: normal;
   font-weight: 300;
@@ -393,7 +406,7 @@ a {
 .inforedwine {
   width: 193px;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 31px;
   font-style: normal;
   font-weight: 600;
@@ -405,7 +418,7 @@ a {
   width: 301px;
   flex-shrink: 0;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -422,4 +435,21 @@ a {
   align-items: flex-start;
   gap: 84px;
   flex-shrink: 0;
+}
+
+.recommandation {
+  flex: 1 0 0;
+  color: var(--yellow, var(--yellow, #704420));
+  text-align: right;
+  font-family: "rama-gothic-e";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.vin-blanc-page {
+  height: 658px;
+  flex: 1 0 0;
 }
