@@ -227,6 +227,17 @@ button {
   align-self: stretch;
 }
 
+.title-footer {
+  align-self: stretch;
+  color: var(--red-base, #3a0300);
+  font-family: "rama-gothic-e";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 .footer-inline {
   display: flex;
   align-items: flex-start;
@@ -332,7 +343,9 @@ button {
 .mini-footer {
   width: 194px;
   color: #3a0300;
-  font-family: "Rama Gothic Rounded";
+  // font-family: "Rama Gothic Rounded";
+  font-family: "rama-gothic-e";
+
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
