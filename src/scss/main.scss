@@ -395,6 +395,7 @@ button {
   display: flex;
   gap: 12px;
 }
+
 /* vin rouge page */
 
 .titre-gamay {
@@ -410,6 +411,26 @@ button {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  margin-top: 190px;
+}
+
+.title-gamay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+  align-self: stretch;
+  background-image: url(../img/red-bottle.png);
+  margin-top: 94px;
+  padding-left: 17%;
+  aspect-ratio: 639/688;
+  background-size: 100%;
+}
+
+.red-bottle {
+  width: 1182px;
+  height: 768px;
+  flex-shrink: 0;
 }
 
 a {
@@ -460,11 +481,10 @@ a {
 .redwine-information-texte {
   display: flex;
   width: 520px;
-  height: 1266px;
   flex-direction: column;
   align-items: flex-start;
   gap: 84px;
-  flex-shrink: 0;
+  margin-top: 200px;
 }
 
 .recommandation {
@@ -477,9 +497,36 @@ a {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+  margin-bottom: -23px;
 }
 
-.vin-blanc-page {
+.vinblanc-recommandation {
   height: 658px;
   flex: 1 0 0;
+  background-color: white;
+}
+
+.titre-gewurztaminer {
+  color: #704420;
+  font-family: "Rama Gothic Rounded";
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.button-vin-blanc {
+  display: flex;
+  height: 34px;
+  padding: 6px 49px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  border: 1px solid #6e4623;
+}
+
+.petit-vin-blanc {
 }
