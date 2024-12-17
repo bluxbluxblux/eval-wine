@@ -18,7 +18,8 @@ video {
 
 .row + .row {
 }
-body {
+
+.arriereplanhomepage {
   background-image: url(../img/forme\ rose\ accueil.svg);
   background-size: 100%;
 }
@@ -174,6 +175,7 @@ body {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin-top: 30px;
+  margin-left: 50px;
 }
 
 .redwinebutton-wrapper {
@@ -243,11 +245,12 @@ button {
 }
 
 .philo {
-  margin-left: 35px;
+  margin-left: 30px;
 }
 
-.Mmvigne {
-  margin-right: 15px;
+.titre.Mmvigne {
+  margin-right: 40px;
+  margin-left: 50px;
 }
 
 .logo {
@@ -406,6 +409,11 @@ button {
 
 /* vin rouge page */
 
+.arriereplanrouge {
+  background-image: url(../img/forme\ rose\ accueil.svg);
+  background-size: 100%;
+}
+
 .titre-gamay {
   display: flex;
   flex-direction: column;
@@ -535,9 +543,18 @@ button {
   margin-bottom: 2px;
 }
 
-.bouton .vin-blanc {
+.bouton.vin-blanc {
   color: #6e4623;
-  font-size: 3px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid #6e4623;
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  padding: 6px 30px;
 }
 
 .petit-vin-blanc {
@@ -595,4 +612,59 @@ button {
 
 .petit-titre .row {
   margin-bottom: 20px;
+}
+
+/* burger menu page */
+
+.arriereplanjaune {
+  background-image: url(../img/forme\ jaune.svg);
+  background-size: 100%;
+}
+
+.titre-gewurztraminer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  align-self: stretch;
+  color: #704420;
+  font-family: "rama-gothic-e";
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 190px;
+}
+
+.title-gewurztraminer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+  align-self: stretch;
+  background-image: url(../img/yellow\ Bottle.png);
+  margin-top: 94px;
+  padding-left: 17%;
+  aspect-ratio: 639/688;
+  background-size: 100%;
+}
+
+.bouton.commanderjaune {
+  color: #704420;
+  margin-left: 85px;
+  border-radius: 5px;
+  border: 1px solid #704420;
+}
+.recommandation.rouge {
+  color: var(--red, #781515);
+  margin-left: 27px;
+}
+
+.titre-gewurztaminer.pinot-noir {
+  color: #781515;
+}
+.bouton.red-wine {
+  border: 1px solid #781515;
+  color: #781515;
 }
